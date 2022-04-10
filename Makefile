@@ -4,3 +4,6 @@ FILES = wasm/main.c
 
 all:
 	$(C) $(FLAGS) $(FILES)
+
+optimize:
+	$(C) $(FLAGS) -O3 $(FILES)
